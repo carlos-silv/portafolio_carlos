@@ -1,0 +1,135 @@
+body h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #2956b2 !important;
+}
+
+.page-section .slik .item {
+    overflow: hidden;
+    position: relative;
+    outline: none;
+    cursor: pointer;
+}
+
+.page-section .slik .item img {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.page-section .slik .item .itemtext {
+    margin: 0 auto;
+    background: rgb(0, 0, 0, 0.8);
+    color: #fafafa;
+    width: 80%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    left: 58px;
+    transform: translateY(100%);
+}
+
+.page-section .slik .item:hover .itemtext {
+    transform: translateY(0);
+    transition: 1.0s;
+}
+
+.page-section .slik .item:hover {
+    transform: scale(1.02);
+}
+
+#portfolio .portfolio-item .contenimg {
+    height: 193px;
+    overflow: hidden;
+}
+
+#portfolio .portfolio-item .contenimg .portfolio-hover .portfolio-hover-content {
+    position: absolute;
+    top: 76px;
+}
+
+#sobremi {
+    background-color: #f8f9fa !important;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#sobremi .contenedor .contenportada {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#sobremi .contenedor .contenportada .contenperfil {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -10%;
+    left: 43%;
+    max-width: 50%;
+    overflow: hidden;
+}
+
+#sobremi .contenedor .contenportada .contenperfil img {
+    border-radius: 50%;
+}
+
+#sobremi .contenedor .contenportada img {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+#sobremi .contenedor .conten-infor {
+    margin-top: 100px;
+    text-align: right;
+}
+
+#sobremi .contenedor .conten-infor li {
+    margin: 15px 0;
+    list-style: none;
+}
+
+#sobremi .contenedor .conten-infor .soy {
+    text-align: left;
+}
+
+#sobremi .contenedor .conten-infor .contenperfillaboral {
+    text-align: center;
+}
+
+#experiencia .timeline .timeline-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#experiencia .timeline .timeline-image p {
+    width: 100px;
+}
+
+#about img {
+    position: absolute;
+    max-width: 184%;
+}
+
+#contact a {
+    background: #2956b2;
+}
+
+#contact h3 {
+    color: #fafafa !important;
+}
+
+#contact p {
+    color: #f8f9fa;
+}
+
+#contact p b {
+    margin: 12px;
+}
